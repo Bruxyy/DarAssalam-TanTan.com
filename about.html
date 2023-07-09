@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="جمعية دار السلام ">
+    <meta name="keywords" content="هداة, جمعية , جمعية هداة , البناء العلمي , شريعة, تعليم , الكتروني , شرائح , فقه, توحيد , دعوة , حديث , تفسير , قرآن , الأكاديمية , الأكاديمية الإسلامية المفتوحة">
+    <meta name="csrf-token" content="AqMClOsbtzCHDvuJLzANaMAbmefK9dJR49ubWXSS" />
+    <title>جمعية دار السلام </title>
+
+    <meta property=og:title content="جمعية هداة الخيرية" />
+    <meta property=og:description content="جمعية دار السلام    " />
+    <meta property=og:image content="hdat.sa/public/website/Images/logo.png" />
+
+    <link rel="SHORTCUT ICON" href="www.hdat.sa/public/website/Images/dar.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="www.hdat.sa/public/website/Css/Style.css">
+    <link rel="stylesheet" media="(min-width: 320px) and (max-width: 767px)" href="www.hdat.sa/public/website/Css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1024px)" href="www.hdat.sa/public/website/Css/ipad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="www.hdat.sa/public/website/Js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="www.hdat.sa/public/website/Js/top-main.js"></script>
+    <script type="text/javascript" src="www.hdat.sa/public/website/Js/top-top.js"></script>
+    <link rel="stylesheet" type="text/css" href="www.hdat.sa/public/website/Css/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="www.hdat.sa/public/website/Css/datatables.min.css">
+    <script type="text/javascript" src="www.hdat.sa/public/website/Js/datatables.min.js"></script>
+    <script type="text/javascript" src="hwww.hdat.sa/public/website/Js/dataTables.rowReorder.min.js"></script>
+    <script type="text/javascript" src="www.hdat.sa/public/website/Js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+        });
+        jQuery(function($) {
+            var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+            $('.nav-a').each(function() {
+                if (this.href === path) {
+                    $(this).addClass('active-menu');
+                }
+            });
+            $('.btn-open').click(function() {
+                $('.modal-wrapper').addClass('open')
+            });
+            $('.btn-close').click(function() {
+                $('.modal-wrapper').removeClass('open')
+            });
+        });
+        $(function() {
+            $('.menu-icon a').click(function() {
+                $('.menu-slide').addClass('anime-menu');
+                $('body').css({
+                    "overflow-x": "hidden",
+                    "position": "relative"
+                });
+                $('.over-lay').css({
+                    "display": "block"
+                });
+                return false;
+            });
+            $('.close-menu,.over-lay').click(function() {
+                $('.menu-slide').removeClass('anime-menu');
+                $('body').css({
+                    "overflow-x": "auto",
+                    "position": "static"
+                });
+                $('.over-lay').css({
+                    "display": "none"
+                });
+                return false;
+            });
+            $('.menu-slide .slide').click(function() {
+                $('.menu-slide .drop').css({
+                    "visibility": "visible",
+                    "opacity": "1"
+                });
+                $(".menu-slide .drop").slideToggle();
+                return false;
+            });
+        });
+    </script>
+    <!-- Hotjar Tracking Code for https://www.hdat.sa -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 3118217,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body dir="rtl">
+    <div class="over-lay"></div>
+    <!-- ============================================
+
+=                  START Header                 =
+
+============================================= -->
+    <!--Start Navbar 1 on Desktop-->
+
+    <div class="menu-slide">
+        <div class="top-menu-slide flex justify-end">
+            <a href="javascript:void()" class="close-menu" id="showLeftPush2"></a>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="index.html">الرئيسية</a>
+                </li>
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="">تعرف علينا</a>
+                </li>
+         
+   
+
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="9alo3ana.html">قالوا عنا</a>
+                </li>
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="news1.html">الاخبار</a>
+                </li>
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="contact.php">اتصل بنا</a>
+                </li>
+                <li class="nav-li">
+                    <a class="m-font nav-a time" href="jam3iyafiar9am.php">الجمعية في أرقام   </a>
+                </li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul class="flex justify-start">
+                <li style="font-size: 1.4rem;">
+                    <a href="https://web.facebook.com/DarAssalamTantan" ><i class="fa-brands fa-facebook-f"></i> </a>
+                    
+                </li>
+                <li style="font-size: 1.4rem;">
+                    <a href="https://www.youtube.com/hdat3322" ><i class="fa-regular fa-envelope"></i></a> 
+                </li>
+                <li style="font-size: 1.5rem;">
+                    <a href="https://www.instagram.com/dar_assalam_tantan/" ><i class="fa-brands fa-instagram"></i> </a>
+                </li>
+                <li style="font-size: 1.5rem; ">
+                    <a href="https://wa.me/212707416685" ><i class="fa-brands fa-whatsapp"></i> </a>
+                </li>
+
+            </ul>
+        </div>
+    </br>
+
+    <div class="top-buttons">
+      <CENTer>                          <a class="flash m-font time color-white" href="register.php">انخرط الان </a>
+      </CENTer>
+    </div>
+    </div>
+
+
+
+    <div class="mobile-header inner-mob">
+        <div class="center flex center-flex justify-between">
+            <div class="right-mobile flex justify-start center-flex">
+                <div class="menu-icon">
+                    <a href="javascript:void(0)">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="center-mobile">
+                <div class="logo">
+                    <a href=""><img src="www.hdat.sa/public/website/Images/dar.png" /></a>
+                </div>
+            </div>
+
+    
+
+        </div>
+    </div>
+    <div class="header inner-header">
+        <div class="center flex center-flex justify-between">
+            <div class="right-header">
+                <div class="logo">
+                    <a href=""><img src="www.hdat.sa/public/website/Images/dar.png" /></a>
+                </div>
+            </div>
+            <div class="left-header flex justify-end">
+                <div class="top-left-header flex justify-end center-flex">
+                    <div class="social">
+                        <ul class="flex justify-start">
+                         
+                            <li style="font-size: 1.4rem;">
+                                <a href="https://web.facebook.com/DarAssalamTantan" ><i class="fa-brands fa-facebook-f" style="color: #000000;"></i> </a>
+                                
+                            </li>
+                            <li style="font-size: 1.4rem;">
+                                <a href="https://www.youtube.com/hdat3322" ><i class="fa-regular fa-envelope" style="color: #000000;"></i></a> 
+                            </li>
+                            <li style="font-size: 1.5rem;">
+                                <a href="https://www.instagram.com/dar_assalam_tantan/" ><i class="fa-brands fa-instagram" style="color: #000000;"></i> </a>
+                            </li>
+                            <li style="font-size: 1.5rem; ">
+                                <a href="https://wa.me/212707416685" ><i class="fa-brands fa-whatsapp" style="color: #000000;"></i> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+          
+                    <div class="top-buttons">
+                        <a class="flash m-font time color-white" href="register.php">انخرط الان </a>
+                    </div>
+                </div>
+
+                <div class="bottom-left-header flex justify-end">
+                    <div class="menu">
+                        <ul class="flex justify-start center-flex">
+                            <li class="nav-li">
+                                <a class=" m-font nav-a time" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="m-font nav-a time " href="">تعرف علينا</a>
+                            </li>
+                      
+         
+                         
+                            <li class="nav-li">
+                                <a class="m-font nav-a time " href="9alo3ana.html">قالوا عنا</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="m-font nav-a time " href="news1.html">الاخبار</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="m-font nav-a time " href="contact.php">اتصل بنا</a>
+                            </li>
+                            <li class="nav-li">
+                                <a class="m-font nav-a time " href="jam3iyafiar9am.php">الجمعية في أرقام   </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     
+    </div>
+
+    <div class="content">
+
+        <div class="section-grey" style="background-color: #F5FAFF">
+            <div class="center">
+                <div class="page-title">
+                    <h2 class="color-red weight-800"> تعرف علينا </h2>
+                </div>
+            </div>
+        </div>
+        <div class="section-inner">
+            <div class="section-crumb">
+                <div class="center">
+                    <div class="bread-crumb">
+                        <ul class="flex justify-start center-flex">
+                            <li>
+                                <a class="color-blue m-font weight-500" href="index.html">الرئيسية</a>
+
+                            </li>
+                            <li>
+                                <span class="m-font weight-500 grey-color"> تعرف علينا </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-white">
+                <div class="center">
+                    <div class="about-desk m-font">
+                        <p style="text-align: justify">دار السلام هي جمعية مستقلة غير حكومية تاسست سنة 2020 بطانطان، تهتم بالشان المحلي و تصبو الى المساهمة في تنمية ساكنة طانطان عبر عدد من الانشطة
+                      </p>
+                        <br />
+                    </div>
+
+                </div>
+            </div>
+            <div class="section-grey">
+                 
+                <div class="center">
+                    <div class="title-section">
+                        <h2 class="color-blue weight-900"> مجلس الإدارة </h2>
+                    </div>
+                    <div class="team">
+                        <ul class="flex justify-center center-flex">
+                            <li>
+                                <img src="www.hdat.sa/public/website/Images/chawi.jpg" />
+                                <h2 class="l-font weight-700">   إبراهيم الشاوي </h2>
+                                <span class="m-font weight-500 color-red">المشرف العام على دار السلام </span>
+                            </li>
+                            <li>
+                                <img src="www.hdat.sa/public/website/Images/mass3odi.jpg" />
+                                <h2 class="m-font weight-700">  يوسف مسعودي</h2>
+                                <span class="m-font weight-500 color-blue">رئيس كشافة سفراء السلام محلية طانطان </span>
+                            </li>
+                            <li>
+                                <img src="www.hdat.sa/public/website/Images/youssef.jpg" />
+                                <h2 class="m-font weight-700">   يوسف أياس</h2>
+                                <span class="m-font weight-500 color-blue">عضو المفوضية الجهوية لكشافة سفراء السلام جهة كلميم وادنون</span>
+                            </li>
+                            
+                  
+                            <li>
+                                <img src="www.hdat.sa/public/website/Images/WhatsApp Image 2023-05-19 at 10.12.11 PM.jpeg" />
+                                <h2 class="m-font weight-700">   نادية كوسلا</h2>
+                                <span class="m-font weight-500 color-blue">رئيسة مبادرة عون</span>
+                            </li>
+                            <li>
+                                <img src="www.hdat.sa\public\website\Images\WhatsApp Image 2023-05-20 at 2.36.04 AM.jpeg" />
+                                <h2 class="m-font weight-700">   الولي المومن</h2>
+                                <span class="m-font weight-500 color-blue">رئيس جمعية طانطان تقرأ</span>
+                            </li>
+                          
+                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section-grey">
+                <div class="center">
+                    <div class="statistics flex justify-between center-flex">
+                        <div class="inner-sta">
+                            <h2 class="color-blue l-font weight-800">كلمة رئيس مجلس الإدارة</h2>
+                            <p class="m-font" style="text-align: justify">
+                                سلام تام بوجود مولانا الإمام،
+                                وبعد، فإن دار السلام ومنذ تأسيسها أخذت على عاتقها مسؤولية عظيمة، هي بناء الانسان، فغايتنا نبيلة، ونيتنا عظيمة..
+                                ان دار السلام تفتح ابوابها لكل من يرغب في النهل من بحر انشطتنا الزاخر بالاستفادة، كما تفتح بابها لك من هو راغب في المشاركة في هذه العملية النبيلة التي اوصانا بها ديننا الحنيف، وهي تعليم الانسان.   
+                            
+
+                            </p>
+                            <br />
+                            <h2 class="color-blue l-font weight-800"> الاستاذ إبراهيم الشاوي   </h2>
+                        </div>
+                        <div class="statistics-numbers">
+                            <div class="square1 bg-yellow color-white square">
+                                <h3 class="m-font">أكثر من</h3>
+                                <h4 class="weight-800">
+                                    3 </h4>
+                                <span class="s-font">سنوات </span>
+                            </div>
+                            <div class="square2 bg-blue color-white square">
+                                <h3 class="m-font">أكثر من</h3>
+                                <h4 class="weight-800">500</h4>
+                                <span class="s-font"> طفل مستفيد</span>
+                            </div>
+                            <div class="square3 square">
+                                <h3 class="m-font">أكثر من</h3>
+                                <h4 class="weight-800">40</h4>
+                                <span class="s-font">نشاط إشعاعي</span>
+                            </div>
+                            <div class="square4">
+                            </div>
+                            <div class="square5">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-white">
+                <div class="center">
+                    <div class="title-section">
+                        <h2 class="color-blue weight-900">الرؤية والرسالة</h2>
+                    </div>
+                    <div class="organiz">
+                        <ul class="flex justify-center center-flex">
+                            <li>
+                                <span class="color-blue m-font"> الرؤية </span>
+                                <h2 class="m-font">    تنزيل المنهاج الكشفي الموحد عالميا بطريقة عملية بما يتلاءم مع خصوصيات المنطقة والافراد وبما يعود عليهم بالنفع</h2>
+                            </li>
+                            <li>
+                                <span class="color-blue m-font">الرسالة</span>
+                                <h2 class="m-font">   تغيير حياة الفرد الى الافضل سلوكيا، ومعرفيا، ومهاريا، ووجدانيا</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="section-white">
+                <div class="center">
+                    <div class="title-section">
+                        <h2 class="color-blue weight-900">أهــداف الجمعيــة</h2>
+                    </div>
+                    <div class="organiz">
+                        <ul class="flex justify-center center-flex">
+                            <li>
+                                <span class="color-blue m-font">1</span>
+                                <h2 class="m-font">تطوير مهارات الشباب والاطفال
+                                </h2>
+                                </li>
+                            <li>
+                                <span class="color-blue m-font">2</span>
+                                <h2 class="m-font"> تنمية فكر الفرد والمجتمع
+                           
+                                </h2>
+                                         <li>
+                                <span class="color-blue m-font">3</span>
+                                <h2 class="m-font">  تحسين سلوكيات الافراد
+                                </h2>
+                            </li>
+                            <li>
+                                <span class="color-blue m-font">4</span>
+                                <h2 class="m-font"> المساهمة في محاربة التفاهة .
+                                </h2>
+                            </li>
+                            <li>
+                                <span class="color-blue m-font">5</span>
+                                <h2 class="m-font"> ترسيخ مبادئ التطوير الشخصي</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section-white">
+                <!--Start twitter
+                <div class="center">
+                    <div class="title-section">
+                        <h2 class="color-blue weight-900">الهيئات التي تضم دار السلام </h2>
+                    </div>
+                    <div class="partener">
+                        <div class="swiper partener-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/عون-removebg-preview.png" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa\public\images\partners\tantanta9ra2-removebg-preview.png" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/lkachfiya-removebg-preview.png" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/softskils.jpg" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/IMG-20230411-WA0005_adobe_express (1).png" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/دار السلام 5.png" style="width: auto;height:90px" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="www.hdat.sa/public//images/partners/gold black minimalist chess knight logo design .png" style="width: auto;height:180px" />
+                                </div>
+                            
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                -->
+            </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="https://www.hdat.sa/public/website/Css/intlTelInput.min.css">
+    <script src="https://www.hdat.sa/public/website/Js/intlTelInput.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.hdat.sa/public/website/Css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.hdat.sa/public/website/Css/swiper-bundle.min.css">
+    <script type="text/javascript" src="https://www.hdat.sa/public/website/Js/swiper-bundle.js"></script>
+
+
+
+    <div class="footer " style="background-color: rgb(69, 1, 255);">
+        <div class="center">
+            <div class="logo-footer">
+                <a href="https://www.hdat.sa"><img src="www.hdat.sa/public/website/Images/dar2.png" /></a>
+            </div>
+            <div class="bottom-footer flex justify-start">
+                <div class="right-footer">
+                    <div class="about-footer">
+                        <h2 class="l-font color-white weight-700">عن الجمعية</h2>
+                        <p class="color-white m-font">جمعية دار السلام مرخصة من  طرف وزارة الشباب و الرياضة      </p>
+                    </div>
+    
+                </div>
+                <div class="center-footer">
+                    <div class="menu-footer flex justify-start">
+                        <ul>
+                            <li>
+                                <a class="m-font time color-white" href="index.html">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a class="m-font time color-white" href="about.html">تعرف علينا</a>
+                            </li>
+                        
+                            <li>
+                                <a class="m-font time color-white" href="news1.html">الأخبار</a>
+                            </li>
+                        
+    
+                        </ul>
+                        <ul>
+                            <li>
+                                <a class="m-font time color-white" href="9alo3ana.html">قالوا عنا</a>
+                            </li>
+                            <li>
+                                <a class="m-font time color-white" href="jam3iyafiar9am.php">الجمعية في أرقام</a>
+                            </li>
+                         
+                         
+    
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="left-footer">
+    
+                    <div class="support">
+                        <a class="color-white flex justify-start center-flex" href="contact.php">
+                            <i  class="fa-solid fa-phone" style="color: #ffd43b; font-size: 2rem;"></i>&nbsp;&nbsp;&nbsp;
+                            <div>
+                                <span class="s-font color-white">تواصل مع</span>
+                                <h2 class="color-white l-font weight-700">الدعم الفني</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="social-footer">
+                <ul class="flex justify-center">
+                    <li  style="font-size: 1.4rem;">
+                        <a href="https://web.facebook.com/DarAssalamTantan" ><i class="fa-brands fa-facebook-f"></i> </a>
+                        
+                    </li>
+                    <li style="font-size: 1.4rem;">
+                        <a href="https://www.youtube.com/hdat3322" ><i class="fa-regular fa-envelope"></i></a> 
+                    </li>
+                    <li style="font-size: 1.5rem;">
+                        <a href="https://www.instagram.com/dar_assalam_tantan/" ><i class="fa-brands fa-instagram"></i> </a>
+                    </li>
+                    <li style="font-size: 1.5rem; ">
+                        <a href="https://wa.me/212707416685" ><i class="fa-brands fa-whatsapp"></i> </a>
+                        
+                    </li>
+    
+                </ul>
+            </div>
+            <div class="copy">
+                <span class="color-white s-font">برمجة وتصميم جمعية دار السلام ©</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var swiper = new Swiper('.partener-slider', {
+            slidesPerView: 2,
+            /* slidesPerGroup:3,*/
+            spaceBetween: 30,
+
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            speed: 1200,
+            loop: true,
+            breakpoints: {
+                380: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
+                1600: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+
+
+</body>
+
+</html>

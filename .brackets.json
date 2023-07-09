@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/PC/OneDrive/Bureau/Stagaires/www.hdat.sa/node_modules/cacache/lib/verify.js",
+        "C:/Users/PC/OneDrive/Bureau/Stagaires/www.hdat.sa/node_modules/cacache/lib/put.js"
+    ]
+}

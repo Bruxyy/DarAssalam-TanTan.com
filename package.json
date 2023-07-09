@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watch:scss": "node-sass -w www.hdat.sa/public/website/asset/index1.scss www.hdat.sa/public/website/asset/index1.css "
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
